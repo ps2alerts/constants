@@ -50,6 +50,7 @@ export enum Vehicle {
     RECLAIMED_MAGRIDER = 2133,
     RECLAIMED_VANGUARD = 2134,
     RECLAIMED_PROWLER = 2135,
+    CORSAIR = 2142,
     EXODUS_PPC = 2143
 }
 
@@ -105,5 +106,6 @@ export const vehicleArray = [
     2133,
     2134,
     2135,
+    2142,
     2143,
 ];
