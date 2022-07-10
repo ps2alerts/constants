@@ -1,7 +1,7 @@
 import {Zone} from './zone';
 import {Faction} from './faction';
 
-interface MetagameDetailsInterface {
+export interface MetagameDetailsInterface {
     title: string;
     zone: Zone;
     duration: number;
