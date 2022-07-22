@@ -96,9 +96,7 @@ export const LoadoutFaction = (loadout: Loadout | undefined): Faction => {
     case Loadout.NSO_MAX:
       return Faction.NS_OPERATIVES
   }
-
-
-
+}
 
 export const LoadoutName = (loadout: Loadout | undefined): string => {
   if (!loadout) {
@@ -156,7 +154,3 @@ export const LoadoutName = (loadout: Loadout | undefined): string => {
       return 'NSO MAX'
   }
 }
-
-
-
-
