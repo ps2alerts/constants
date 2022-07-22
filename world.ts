@@ -41,7 +41,7 @@ export const worldArray = [
     19,
     40,
     1000,
-    2000,
+    2000
 ];
 
 export const pcWorldArray = [
@@ -50,5 +50,5 @@ export const pcWorldArray = [
     13,
     17,
     19,
-    40,
+    40
 ];
