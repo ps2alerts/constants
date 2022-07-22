@@ -1,4 +1,4 @@
 export enum PlayerFacility {
-    CAPTURE = 1,
-    DEFEND = 2,
+  CAPTURE = 1,
+  DEFEND = 2,
 }
