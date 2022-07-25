@@ -9,4 +9,4 @@ export const censusOldFacilities = [
     241, // NS Research Labs
     243, // Red Ridge Communications
     250, // Blackshard Iridium Mine
-];
+]

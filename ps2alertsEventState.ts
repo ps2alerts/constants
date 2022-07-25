@@ -4,8 +4,4 @@ export enum Ps2alertsEventState {
     ENDED = 2,
 }
 
-export const ps2alertsEventStateArray = [
-    0,
-    1,
-    2,
-];
+export const ps2alertsEventStateArray = [0, 1, 2]

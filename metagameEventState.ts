@@ -3,7 +3,4 @@ export enum MetagameEventState {
     FINISHED = 138,
 }
 
-export const metagameEventStateArray = [
-    137,
-    138,
-];
+export const metagameEventStateArray = [137, 138]

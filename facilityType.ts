@@ -9,5 +9,18 @@ export enum FacilityType {
     INTERLINK_FACILITY = 8,
     CONSTRUCTION_OUTPOST = 9,
     RELIC_OUTPOST = 10, // Desolation only
-    CONTAINMENT_SITE = 11
+    CONTAINMENT_SITE = 11,
+    TRIDENT = 12,
+    UNDERWATER = 13,
 }
+
+export const MAJOR_FACILITIES = [
+    FacilityType.AMP_STATION,
+    FacilityType.BIO_LAB,
+    FacilityType.CONTAINMENT_SITE,
+    FacilityType.INTERLINK_FACILITY,
+    FacilityType.TRIDENT,
+    FacilityType.TECH_PLANT,
+    FacilityType.WARPGATE,
+    FacilityType.RELIC_OUTPOST,
+]

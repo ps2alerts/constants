@@ -4,7 +4,4 @@ export enum Ps2alertsEventType {
     // More to add
 }
 
-export const ps2alertsEventTypeArray = [
-    1,
-    2,
-];
+export const ps2alertsEventTypeArray = [1, 2]
