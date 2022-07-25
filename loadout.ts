@@ -1,4 +1,4 @@
-import { Faction } from '~/constants/faction'
+import {Faction} from "./faction";
 
 export enum Loadout {
     UNKNOWN = 0,

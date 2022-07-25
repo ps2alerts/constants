@@ -75,6 +75,7 @@ export enum Vehicle {
     CORSAIR = 2142,
     EXODUS_PPC = 2143, // Big Pew Pew on the Oshur carriers
 }
+
 export const vehicleArray = [
     1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 101, 102, 103, 104, 105,
     150, 151, 160, 161, 162, 163, 1013, 2006, 2007, 2008, 2009, 2010, 2011, 2019,
