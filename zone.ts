@@ -9,7 +9,13 @@ export enum Zone {
     OSHUR = 344,
 }
 
-export const zoneArray = [2, 4, 6, 8, 344]
+export const zoneArray = [
+    2,
+    4,
+    6,
+    8,
+    344,
+];
 
 export const zoneToWarpgateArray = new Map<Zone, number[]>([
     [Zone.INDAR, [7801, 120000, 4801]],
