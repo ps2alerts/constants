@@ -67,81 +67,17 @@ export enum Vehicle {
     RECLAIMED_MAGRIDER = 2133,
     RECLAIMED_VANGUARD = 2134,
     RECLAIMED_PROWLER = 2135,
-    CORSAIR = 2142,
     DERVISH = 2136,
     CHIMERA = 2137,
     DELIVERER_PROTOTYPE_2 = 2139, // Spawn ANT, UNUSED
     LODESTAR_PROTOTYPE_2 = 2140, // Spawn Galaxy, UNUSED - NOT IN API
     WASP_PROTOTYPE_2 = 2141, // Currently used (Cortium Valkyrie)
+    CORSAIR = 2142,
     EXODUS_PPC = 2143, // Big Pew Pew on the Oshur carriers
 }
-
-// Allowed vehicles to show up in the matrix (both alert and on the stats page)
-export const allowedVehicleMatrixArray = [
-    Vehicle.FLASH,
-    Vehicle.SUNDERER,
-    Vehicle.LIGHTNING,
-    Vehicle.MAGRIDER,
-    Vehicle.VANGUARD,
-    Vehicle.PROWLER,
-    Vehicle.SCYTHE,
-    Vehicle.REAVER,
-    Vehicle.MOSQUITO,
-    Vehicle.LIBERATOR,
-    Vehicle.GALAXY,
-    Vehicle.VALKYRIE,
-    Vehicle.ANT,
-    Vehicle.JAVELIN_2,
-    Vehicle.COLOSSUS,
-    Vehicle.DERVISH,
-    Vehicle.CHIMERA,
-]
-
-// Allowed vehicle sto show up in the vehicles totals in the statistics page (all vehicles per alert are allowed as they're filtered by the context of that alert anyway)
-export const allowedStatisticsVehiclesArray = [
-    Vehicle.FLASH,
-    Vehicle.SUNDERER,
-    Vehicle.LIGHTNING,
-    Vehicle.MAGRIDER,
-    Vehicle.VANGUARD,
-    Vehicle.PROWLER,
-    Vehicle.SCYTHE,
-    Vehicle.REAVER,
-    Vehicle.MOSQUITO,
-    Vehicle.LIBERATOR,
-    Vehicle.GALAXY,
-    Vehicle.VALKYRIE,
-    Vehicle.ANT,
-    Vehicle.COLOSSUS,
-    Vehicle.JAVELIN_2,
-    Vehicle.DROP_POD,
-    Vehicle.XIPHOS_AP_PHALANX_TURRET,
-    Vehicle.MANA_AP_TURRET,
-    Vehicle.MANA_AV_TURRET,
-    Vehicle.SPITFIRE_TURRET,
-    Vehicle.ASPIS_AA_PHALANX_TURRET,
-    Vehicle.SPEAR_AV_PHALANX_TURRET,
-    Vehicle.SPEAR_AV_PHALANX_TOWER,
-    Vehicle.ASPIS_AA_PHALANX_TOWER,
-    Vehicle.XIPHOS_AP_TOWER,
-    Vehicle.GLAIVE_IPC,
-    Vehicle.PHOENIX_MISSILE,
-    Vehicle.SPEAR_AV_PHALANX_TURRET_2,
-    Vehicle.FLASH_XS_1,
-    Vehicle.BASTION,
-    Vehicle.FLAIL,
-    Vehicle.DELIVERER_PROTOTYPE,
-    Vehicle.WASP_PROTOTYPE,
-    Vehicle.LODESTAR_PROTOTYPE_2,
-    Vehicle.MOSQUITO_INTERCEPTOR,
-    Vehicle.SCYTHE_INTERCEPTOR,
-    Vehicle.DERVISH,
-    Vehicle.CHIMERA,
-]
-
 export const vehicleArray = [
     1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 101, 102, 103, 104, 105,
     150, 151, 160, 161, 162, 163, 1013, 2006, 2007, 2008, 2009, 2010, 2011, 2019,
     2021, 2013, 2036, 2039, 2040, 2122, 2123, 2124, 2125, 2128, 2129, 2130, 2131,
-    2132, 2133, 2134, 2135, 2142, 2143,
+    2132, 2133, 2134, 2135, 2137, 2142, 2143,
 ]
