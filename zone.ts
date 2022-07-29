@@ -3,6 +3,7 @@ export enum Zone {
     HOSSIN = 4,
     AMERISH = 6,
     ESAMIR = 8,
+    NEXUS = 10,
     // VR_TRAINING_NC = 96,
     // VR_TRAINING_TR = 97,
     // VR_TRAINING_VS = 98,
@@ -14,6 +15,7 @@ export const zoneArray = [
     4,
     6,
     8,
+    10,
     344,
 ];
 

@@ -53,12 +53,16 @@ export enum MetagameEventType {
     HOSSIN_HIGH_POP_CONQUEST = 213,
     INDAR_HIGH_POP_CONQUEST = 214,
     OSHUR_HIGH_POP_CONQUEST = 226,
+
+    // Outfit Wars Alerts
+    NEXUS_OUTFIT_WAR = 227,
+    NEXUS_OUTFIT_WAR_PREP = 234,
 }
 
 export const metagameEventTypeArray = [
     147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 176, 177, 178,
     179, 186, 187, 188, 189, 190, 191, 192, 193, 211, 212, 213, 214, 222, 223,
-    224, 226,
+    224, 226, 227,
 ]
 
 export const longAlert = 90 * 60 * 1000
@@ -400,6 +404,17 @@ export const metagameEventTypeDetailsMap: Map<number,
             title: 'Oshur Conquest (high pop)',
             zone: Zone.OSHUR,
             duration: longAlert,
+            triggeringFaction: Faction.NONE,
+            unstable: false,
+        },
+    ],
+    // Outfit Wars
+    [
+        227,
+        {
+            title: 'Nexus Outfit War',
+            zone: Zone.NEXUS,
+            duration: shortAlert,
             triggeringFaction: Faction.NONE,
             unstable: false,
         },
