@@ -1,7 +1,6 @@
 export enum Ps2alertsEventType {
-    COMMUNITY_EVENT = 1,
-    JAEGER_EVENT = 2,
-    // More to add
+    LIVE_METAGAME = 1,
+    OUTFIT_WARS_AUG_2022 = 2,
 }
 
 export const ps2alertsEventTypeArray = [1, 2]
