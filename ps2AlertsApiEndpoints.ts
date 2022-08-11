@@ -1,9 +1,16 @@
 export const ps2AlertsApiEndpoints = {
-    instanceActive: '/instances/active',
-    instances: '/instances',
-    instancesInstance: '/instances/{instanceId}',
+    // Common
     instanceEntriesInstanceFacility: '/instance-entries/{instanceId}/facility',
     instanceEntriesInstanceFacilityFacility:
         '/instance-entries/{instanceId}/facility/{facilityId}', // Yes wonky naming I know
     instanceEntriesFacilityBatch: '/instance-entries/facility/batch',
+
+    // MetagameInstance
+    instanceActive: '/instances/active',
+    instances: '/instances',
+    instancesInstance: '/instances/{instanceId}',
+
+    // Outfitwars
+    outfitwars: '/outfit-wars',
+    outfitwarsInstance: '/outfit-wars/{instanceId}',
 }
