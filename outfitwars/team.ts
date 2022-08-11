@@ -1,7 +1,9 @@
+import { Faction } from "../faction"
+
 export enum Team {
     NONE = 0,
-    RED = 1,
-    BLUE = 2,
+    BLUE = Faction.NEW_CONGLOMERATE,
+    RED = Faction.TERRAN_REPUBLIC,
 }
 
-export const outfitWarsTeamArray = [0, 1, 2]
+export const outfitWarsTeamArray = [Team.NONE, Team.BLUE, Team.RED]
