@@ -3,4 +3,4 @@ export enum Ps2alertsEventType {
     OUTFIT_WARS_AUG_2022 = 2,
 }
 
-export const ps2alertsEventTypeArray = [1, 2]
+export const ps2alertsEventTypeArray = [1, 2];
