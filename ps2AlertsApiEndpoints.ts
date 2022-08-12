@@ -11,6 +11,7 @@ export const ps2AlertsApiEndpoints = {
     instancesInstance: '/instances/{instanceId}',
 
     // Outfitwars
+    outfitwarsActive: '/outfit-wars/active',
     outfitwars: '/outfit-wars',
     outfitwarsInstance: '/outfit-wars/{instanceId}',
 }
