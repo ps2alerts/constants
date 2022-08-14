@@ -14,8 +14,10 @@ export const ps2AlertsApiEndpoints = {
     outfitwarsActive: '/outfit-wars/active',
     outfitwars: '/outfit-wars',
     outfitwarsInstance: '/outfit-wars/{instanceId}',
-    outfitwarsFacilityControl: '/outfit-wars/{instanceId}/facility-control',
+    outfitwarsInstanceFacility: '/outfit-wars/{instanceId}/facility',
+    outfitwarsInstanceFacilityFacility: '/outfit-wars/{instanceId}/facility/{facilityId}',
+    outfitwarsFacilityBatch: '/outfit-wars/facility/batch',
 
     // Census polyfills
-    censusRegions: '/census/regions/{zone}/{version}',
-};
+    censusRegions: '/census/regions/{zone}/{version}'
+}
