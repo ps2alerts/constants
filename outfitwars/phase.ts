@@ -1,4 +1,5 @@
 export enum Phase {
+    ANY = 0,
     QUALIFIERS = 1,
     PLAYOFFS = 2,
     CHAMPIONSHIPS = 3
