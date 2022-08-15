@@ -8,8 +8,8 @@ export const NexusInitialMapData = [
                     "RowData": {
                         "map_region": {
                             "facility_id": "310500",
-                            "facility_type_id": "Arazek SATCOM Hub",
-                            "facility_name": "5"
+                            "facility_name": "Arazek SATCOM Hub",
+                            "facility_type_id": "5"
                         },
                         "FactionId": "0"
                     }
@@ -18,8 +18,8 @@ export const NexusInitialMapData = [
                     "RowData": {
                         "map_region": {
                             "facility_id": "310510",
-                            "facility_type_id": "Nexus Secure Substation",
-                            "facility_name": "6"
+                            "facility_name": "Nexus Secure Substation",
+                            "facility_type_id": "6"
                         },
                         "FactionId": "3"
                     }
@@ -28,8 +28,8 @@ export const NexusInitialMapData = [
                     "RowData": {
                         "map_region": {
                             "facility_id": "310520",
-                            "facility_type_id": "Hydroponics Compound",
-                            "facility_name": "6"
+                            "facility_name": "Hydroponics Compound",
+                            "facility_type_id": "6"
                         },
                         "FactionId": "2"
                     }
@@ -38,8 +38,8 @@ export const NexusInitialMapData = [
                     "RowData": {
                         "map_region": {
                             "facility_id": "310530",
-                            "facility_type_id": "The Granitehead Reactor",
-                            "facility_name": "5"
+                            "facility_name": "The Granitehead Reactor",
+                            "facility_type_id": "5"
                         },
                         "FactionId": "0"
                     }
@@ -48,8 +48,8 @@ export const NexusInitialMapData = [
                     "RowData": {
                         "map_region": {
                             "facility_id": "310540",
-                            "facility_type_id": "Argent Pass",
-                            "facility_name": "6"
+                            "facility_name": "Argent Pass",
+                            "facility_type_id": "6"
                         },
                         "FactionId": "3"
                     }
@@ -58,8 +58,8 @@ export const NexusInitialMapData = [
                     "RowData": {
                         "map_region": {
                             "facility_id": "310550",
-                            "facility_type_id": "Slate Canyon Hold",
-                            "facility_name": "6"
+                            "facility_name": "Slate Canyon Hold",
+                            "facility_type_id": "6"
                         },
                         "FactionId": "2"
                     }
@@ -68,8 +68,8 @@ export const NexusInitialMapData = [
                     "RowData": {
                         "map_region": {
                             "facility_id": "310560",
-                            "facility_type_id": "Nexus Northeast Warpgate",
-                            "facility_name": "7"
+                            "facility_name": "Nexus Northeast Warpgate",
+                            "facility_type_id": "7"
                         },
                         "FactionId": "2"
                     }
@@ -78,8 +78,8 @@ export const NexusInitialMapData = [
                     "RowData": {
                         "map_region": {
                             "facility_id": "310570",
-                            "facility_type_id": "Nexus Southwest Warpgate",
-                            "facility_name": "7"
+                            "facility_name": "Nexus Southwest Warpgate",
+                            "facility_type_id": "7"
                         },
                         "FactionId": "3"
                     }
@@ -88,8 +88,8 @@ export const NexusInitialMapData = [
                     "RowData": {
                         "map_region": {
                             "facility_id": "310590",
-                            "facility_type_id": "Bitter Gorge Garrison",
-                            "facility_name": "5"
+                            "facility_name": "Bitter Gorge Garrison",
+                            "facility_type_id": "5"
                         },
                         "FactionId": "0"
                     }
@@ -98,8 +98,8 @@ export const NexusInitialMapData = [
                     "RowData": {
                         "map_region": {
                             "facility_id": "310600",
-                            "facility_type_id": "Nexus Alpha",
-                            "facility_name": "5"
+                            "facility_name": "Nexus Alpha",
+                            "facility_type_id": "5"
                         },
                         "FactionId": "3"
                     }
@@ -108,8 +108,8 @@ export const NexusInitialMapData = [
                     "RowData": {
                         "map_region": {
                             "facility_id": "310610",
-                            "facility_type_id": "Nexus Omega",
-                            "facility_name": "5"
+                            "facility_name": "Nexus Omega",
+                            "facility_type_id": "5"
                         },
                         "FactionId": "2"
                     }
