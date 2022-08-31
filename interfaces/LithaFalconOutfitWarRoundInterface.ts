@@ -1,6 +1,7 @@
-import LithaFalconOutfitWarRankingInterface from "./LithaFalconOutfitWarRankingInterface";
+/* eslint-disable @typescript-eslint/naming-convention */
+import LithaFalconOutfitWarRankingInterface from './LithaFalconOutfitWarRankingInterface';
 
 export default interface LithaFalconOutfitWarRoundInterface {
-    primary_round_id: string,
-    primary_round_id_join_outfit_war_ranking: LithaFalconOutfitWarRankingInterface
+    primary_round_id: string;
+    primary_round_id_join_outfit_war_ranking: LithaFalconOutfitWarRankingInterface;
 }
