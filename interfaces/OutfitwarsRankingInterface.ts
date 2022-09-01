@@ -13,6 +13,7 @@ export interface OutfitwarsOutfitDataInterface {
 
 export interface OutfitwarsRankingInterface {
     timestamp: Date;
+    startTime: Date;
     round: number;
     world: World;
     outfitWarId: number;
