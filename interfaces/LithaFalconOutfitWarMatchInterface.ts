@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/naming-convention */
 export default interface LithaFalconOutfitWarMatchInterface {
     outfit_war_id: string;
     match_id: string;
@@ -8,4 +9,4 @@ export default interface LithaFalconOutfitWarMatchInterface {
     world_id: string;
     outfit_a_faction_id: string;
     outfit_b_faction_id: string;
-};
+}

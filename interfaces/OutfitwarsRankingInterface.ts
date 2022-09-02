@@ -21,5 +21,5 @@ export interface OutfitwarsRankingInterface {
     order: number;
     outfit: OutfitwarsOutfitDataInterface;
     rankingParameters: LithaFalconOutfitWarRankingParametersInterface;
-    instanceId: string | null
+    instanceId: string | null;
 }

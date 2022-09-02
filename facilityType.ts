@@ -23,4 +23,4 @@ export const MAJOR_FACILITIES = [
     FacilityType.TECH_PLANT,
     FacilityType.WARPGATE,
     FacilityType.RELIC_OUTPOST,
-]
+];

@@ -22,5 +22,5 @@ export const ps2AlertsApiEndpoints = {
     outfitwarsUpdateRanking: '/outfit-wars/ranking/{outfitId}/{round}',
 
     // Census polyfills
-    censusRegions: '/census/regions/{zone}/{version}'
-}
+    censusRegions: '/census/regions/{zone}/{version}',
+};

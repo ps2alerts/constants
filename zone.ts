@@ -26,6 +26,4 @@ export const zoneToWarpgateArray = new Map<Zone, number[]>([
     [Zone.ESAMIR, [258000, 259000, 260000]],
     [Zone.OSHUR, [400370, 400369, 400371]],
     [Zone.NEXUS, [310560, 310570]],
-])
-
-
+]);

@@ -1,4 +1,5 @@
-import { Faction } from "../faction"
+/* eslint-disable @typescript-eslint/prefer-literal-enum-member */
+import {Faction} from '../faction';
 
 export enum Team {
     NONE = 0,
@@ -6,4 +7,4 @@ export enum Team {
     RED = Faction.TERRAN_REPUBLIC,
 }
 
-export const outfitWarsTeamArray = [Team.NONE, Team.BLUE, Team.RED]
+export const outfitWarsTeamArray = [Team.NONE, Team.BLUE, Team.RED];
