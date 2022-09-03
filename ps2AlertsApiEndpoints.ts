@@ -20,6 +20,7 @@ export const ps2AlertsApiEndpoints = {
     outfitwarsFacilityBatch: '/outfit-wars/facility/batch',
     outfitwarsRankings: '/outfit-wars/rankings',
     outfitwarsUpdateRanking: '/outfit-wars/ranking/{outfitId}/{round}',
+    outfitwarsCurrentRoundByWorld: '/outfit-wars/{world}/current-round',
 
     // Census polyfills
     censusRegions: '/census/regions/{zone}/{version}',
