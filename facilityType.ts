@@ -15,7 +15,7 @@ export enum FacilityType {
     CTF_LARGE_OUTPOST = 14,
     CTF_SMALL_OUTPOST = 15,
     CTF_AMP_STATION = 16,
-    CTF_CONSTRUCTION_OUTPOST = 16
+    CTF_CONSTRUCTION_OUTPOST = 17,
 }
 
 export const MAJOR_FACILITIES = [
