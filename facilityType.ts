@@ -27,5 +27,5 @@ export const MAJOR_FACILITIES = [
     FacilityType.TECH_PLANT,
     FacilityType.WARPGATE,
     FacilityType.RELIC_OUTPOST,
-    FacilityType.CTF_AMP_STATION
+    FacilityType.CTF_AMP_STATION,
 ]
