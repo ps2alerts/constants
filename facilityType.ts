@@ -12,6 +12,10 @@ export enum FacilityType {
     CONTAINMENT_SITE = 11,
     TRIDENT = 12,
     UNDERWATER = 13,
+    CTF_LARGE_OUTPOST = 14,
+    CTF_SMALL_OUTPOST = 15,
+    CTF_AMP_STATION = 16,
+    CTF_CONSTRUCTION_OUTPOST = 17,
 }
 
 export const MAJOR_FACILITIES = [
@@ -23,4 +27,5 @@ export const MAJOR_FACILITIES = [
     FacilityType.TECH_PLANT,
     FacilityType.WARPGATE,
     FacilityType.RELIC_OUTPOST,
-];
+    FacilityType.CTF_AMP_STATION,
+]
