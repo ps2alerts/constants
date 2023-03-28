@@ -27,7 +27,6 @@ export const zoneToWarpgateArray = new Map<Zone, number[]>([
     [Zone.OSHUR, [400370, 400369, 400371]],
     [Zone.NEXUS, [310560, 310570]],
 ]);
-])
 
 export const zoneToLatticeMap = new Map<Zone, string>([
     [Zone.INDAR, "1.1"],
