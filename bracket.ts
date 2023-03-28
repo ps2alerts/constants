@@ -8,4 +8,4 @@ export enum Bracket {
     PRIME = 5,
 }
 
-export const ps2alertsBracketArray = [-1, 0, 1, 2, 3, 4, 5]
+export const ps2alertsBracketArray = [-1, 0, 1, 2, 3, 4, 5];

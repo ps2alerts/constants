@@ -1,0 +1,8 @@
+export enum Placement {
+    DID_NOT_QUALIFY = 0,
+    PLAYOFFS_KNOCKED_OUT = 1,
+    CHAMPION_FOURTH = 2,
+    CHAMPION_BRONZE = 3,
+    CHAMPION_SILVER = 4,
+    CHAMPION_GOLD = 5,
+}
