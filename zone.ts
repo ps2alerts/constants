@@ -25,4 +25,10 @@ export const zoneToWarpgateArray = new Map<Zone, number[]>([
     [Zone.OSHUR, [400370, 400369, 400371]],
 ])
 
-
+export const zoneToLatticeMap = new Map<Zone, string>([
+    [Zone.INDAR, "1.1"],
+    [Zone.HOSSIN, "1.1"],
+    [Zone.AMERISH, "1.1"],
+    [Zone.ESAMIR, "1.1"],
+    [Zone.OSHUR, "1.2"],
+])
