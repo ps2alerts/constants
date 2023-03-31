@@ -28,10 +28,35 @@ export const zoneToWarpgateArray = new Map<Zone, number[]>([
     [Zone.NEXUS, [310560, 310570]],
 ]);
 
-export const zoneToLatticeMap = new Map<Zone, string>([
-    [Zone.INDAR, "1.1"],
-    [Zone.HOSSIN, "1.1"],
-    [Zone.AMERISH, "1.1"],
-    [Zone.ESAMIR, "1.1"],
-    [Zone.OSHUR, "1.2"],
+export const zoneLatticeVersionsMap = new Map<Zone, string[]>([
+    [Zone.INDAR, ["1.0", "1.1"]],
+    [Zone.HOSSIN, ["1.0", "1.1"]],
+    [Zone.AMERISH, ["1.0", "1.1"]],
+    [Zone.ESAMIR, ["1.0", "1.1"]],
+    [Zone.OSHUR, ["1.0", "1.1", "1.2"]],
+    [Zone.NEXUS, ["1.0"]],
 ])
+
+// Returns the current version of the lattice for a given zone
+export const getZoneLatticeVersion = ((zone: Zone, date: Date): string => {
+    // Currently Nexus only has one version
+    if (zone === Zone.NEXUS) {
+        return '1.0';
+    }
+
+    const ctfRelease = new Date('2022-11-17 15:00:00'); // The time is random guess for now
+
+    if (date > ctfRelease) {
+        switch (zone) {
+            case Zone.INDAR:
+            case Zone.AMERISH:
+            case Zone.HOSSIN:
+            case Zone.ESAMIR:
+                return '1.1';
+            case Zone.OSHUR:
+                return '1.2';
+        }
+    }
+
+    return '1.0'
+})
