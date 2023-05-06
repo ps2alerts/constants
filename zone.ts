@@ -45,8 +45,11 @@ export const getZoneLatticeVersion = ((zone: Zone, date: Date): string => {
     }
 
     const ctfRelease = new Date('2022-11-17 15:00:00'); // The time is random guess for now
+    const constructionRelease = new Date('2023-05-10 15:00:00'); // This date is a guess - needs to be updated for when the update is actually released
 
-    if (date > ctfRelease) {
+    if(date > constructionRelease && zone === Zone.OSHUR) {
+        return '1.3';
+    } else if (date > ctfRelease) {
         switch (zone) {
             case Zone.INDAR:
             case Zone.AMERISH:
