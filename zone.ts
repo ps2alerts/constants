@@ -33,7 +33,7 @@ export const zoneLatticeVersionsMap = new Map<Zone, string[]>([
     [Zone.HOSSIN, ["1.0", "1.1"]],
     [Zone.AMERISH, ["1.0", "1.1"]],
     [Zone.ESAMIR, ["1.0", "1.1"]],
-    [Zone.OSHUR, ["1.0", "1.1", "1.2"]],
+    [Zone.OSHUR, ["1.0", "1.1", "1.2", "1.3"]],
     [Zone.NEXUS, ["1.0"]],
 ])
 
@@ -45,7 +45,7 @@ export const getZoneLatticeVersion = ((zone: Zone, date: Date): string => {
     }
 
     const ctfRelease = new Date('2022-11-17 15:00:00'); // The time is random guess for now
-    const constructionRelease = new Date('2023-05-10 15:00:00'); // This date is a guess - needs to be updated for when the update is actually released
+    const constructionRelease = new Date('2023-05-17 15:00:00'); // Release data 5/17/23
 
     if(date > constructionRelease && zone === Zone.OSHUR) {
         return '1.3';
