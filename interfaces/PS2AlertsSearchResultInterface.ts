@@ -27,6 +27,7 @@ export interface SearchOutfitInterface extends SearchResultComponentInterface {
 // Component specific data
 export interface SearchResultComponentInterface {
     name: string;
+    tag?: string;
     type: 'player' | 'outfit';
     faction: Faction
     world: World
