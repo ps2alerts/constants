@@ -1,5 +1,5 @@
-import { Faction } from "~/ps2alerts-constants/faction";
-import { World } from "~/ps2alerts-constants/world";
+import { Faction } from "../faction";
+import { World } from "../world";
 
 export interface SearchCharacterInterface extends SearchResultComponentInterface {
     character: {
