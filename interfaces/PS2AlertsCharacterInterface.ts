@@ -10,5 +10,5 @@ export interface PS2AlertsCharacterInterface {
     world: World;
     battleRank: number;
     adjustedBattleRank: number;
-    outfit?: PS2AlertsOutfitInterface;
+    outfit: PS2AlertsOutfitInterface; // Character always have an outfit, even if it's a "-- NONE --" outfit
 }
