@@ -6,7 +6,6 @@ export interface PS2AlertsCharacterInterface {
     asp: number;
     id: string;
     name: string;
-    faction: Faction;
     battleRank: number;
     adjustedBattleRank: number;
     outfit?: PS2AlertsOutfitEmbedInterface;
