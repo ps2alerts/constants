@@ -2,7 +2,7 @@ import { PS2AlertsFactionKillDataInterface } from "../PS2AlertsFactionKillDataIn
 import { World } from "../../world";
 import { Bracket } from "../../bracket";
 import { Ps2AlertsEventType } from "../../ps2AlertsEventType";
-import { PS2AlertsCharacterInterface } from "../../interfaces/PS2AlertsCharacterInterface";
+import { PS2AlertsCharacterInterface } from "../PS2AlertsCharacterInterface";
 
 export interface GlobalCharacterAggregateInterface {
     world: World;
