@@ -3,16 +3,11 @@ import { World } from "../../world";
 import { Bracket } from "../../bracket";
 import { Ps2AlertsEventType } from "../../ps2AlertsEventType";
 import { PS2AlertsCharacterInterface } from "../PS2AlertsCharacterInterface";
+import {CombatMetricsInterface} from "../CombatMetricsInterface";
 
-export interface GlobalCharacterAggregateInterface {
+export interface GlobalCharacterAggregateInterface extends CombatMetricsInterface {
     world: World;
     bracket: Bracket;
-    kills: number;
-    deaths: number;
-    teamKills: number;
-    teamKilled: number;
-    suicides: number;
-    headshots: number;
     ps2AlertsEventType: Ps2AlertsEventType;
     searchIndexed: boolean;
     character: PS2AlertsCharacterInterface
