@@ -31,5 +31,5 @@ export interface SearchResultComponentInterface {
     type: 'player' | 'outfit';
     faction: Faction
     world: World
-    matchScore?: number;
+    matchScore: number;
 }
