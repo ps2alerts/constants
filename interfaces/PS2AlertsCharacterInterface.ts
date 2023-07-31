@@ -1,13 +1,14 @@
 import {Faction} from "../faction";
-import {PS2AlertsOutfitEmbedInterface} from "./PS2AlertsOutfitInterface";
-import {PS2AlertsFactionKillDataInterface} from "./PS2AlertsFactionKillDataInterface";
+import { World } from "../world";
+import {PS2AlertsOutfitInterface} from "./PS2AlertsOutfitInterface";
 
 export interface PS2AlertsCharacterInterface {
     asp: number;
     id: string;
     name: string;
+    faction: Faction;
+    world: World;
     battleRank: number;
     adjustedBattleRank: number;
-    outfit?: PS2AlertsOutfitEmbedInterface;
-    factionKills: PS2AlertsFactionKillDataInterface;
+    outfit?: PS2AlertsOutfitInterface;
 }
