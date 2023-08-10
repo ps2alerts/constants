@@ -26,10 +26,12 @@ export interface SearchOutfitInterface extends SearchResultComponentInterface {
 
 // Component specific data
 export interface SearchResultComponentInterface {
+    id: string,
     name: string;
     tag?: string;
     type: 'player' | 'outfit';
     faction: Faction
     world: World
     matchScore: number;
+    isPinned: boolean;
 }
