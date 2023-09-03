@@ -5,9 +5,20 @@ import {
     PS2AlertsTerritoryInstanceInterface
 } from "~/ps2alerts-constants/interfaces/PS2AlertsTerritoryInstanceInterface";
 
+export interface XPerMinuteInterface {
+    deathsPerMinute: number
+    headshotsPerMinute: number
+    killsPerMinute: number
+    suicidesPerMinute: number
+    teamKilledPerMinute: number
+    teamKillsPerMinute: number
+}
+
 export interface InstanceCharacterInterface extends CombatMetricsInterface {
-    instance: string;
-    ps2AlertsEventType: Ps2AlertsEventType;
+    instance: string
+    ps2AlertsEventType: Ps2AlertsEventType
     character: PS2AlertsCharacterInterface
     instanceDetails?: PS2AlertsTerritoryInstanceInterface
+    xPerMinutes?: XPerMinuteInterface
+    [key: string]: any
 }
