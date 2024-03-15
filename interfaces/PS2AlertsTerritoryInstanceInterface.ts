@@ -1,10 +1,10 @@
 import { World } from "../world";
 import { Zone } from "../zone";
 import { Ps2AlertsEventState } from "../ps2AlertsEventState";
-import { TerritoryResultInterface } from "~/interfaces/InstanceTerritoryResultInterface";
 import { Bracket } from "../bracket";
-import { PS2AlertsInstanceFeaturesInterface } from "~/interfaces/PS2AlertsInstanceFeaturesInterface";
 import { Ps2AlertsEventType } from "../ps2AlertsEventType";
+import TerritoryResultInterface from "./TerritoryResultInterface";
+import {PS2AlertsInstanceFeaturesInterface} from "./PS2AlertsInstanceFeaturesInterface";
 
 export interface PS2AlertsTerritoryInstanceInterface {
     instanceId: string
