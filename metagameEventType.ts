@@ -15,7 +15,7 @@ export enum MetagameEventType {
     HOSSIN_ENLIGHTENMENT = 154,
     AMERISH_ENLIGHTENMENT = 157,
     ESAMIR_ENLIGHTENMENT = 151,
-    OSHUR_ENGLIGHTENMENT = 224,
+    OSHUR_ENLIGHTENMENT = 224,
 
     // NC Triggered
     INDAR_LIBERATION = 149,
@@ -65,7 +65,7 @@ export enum MetagameEventType {
 export const metagameEventTypeArray = [
     147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 176, 177, 178,
     179, 186, 187, 188, 189, 190, 191, 192, 193, 211, 212, 213, 214, 222, 223,
-    224, 226, 227,
+    224, 226, 227, 248, 249, 250
 ];
 
 export const longAlert = 90 * 60 * 1000;
@@ -73,7 +73,7 @@ export const shortAlert = 45 * 60 * 1000;
 
 export const metagameEventTypeDetailsMap: Map<number,
 MetagameDetailsInterface> = new Map<number, MetagameDetailsInterface>([
-    // Indar
+    // =========== Indar
     [
         147,
         {
@@ -104,8 +104,49 @@ MetagameDetailsInterface> = new Map<number, MetagameDetailsInterface>([
             unstable: false,
         },
     ],
+    [
+        189,
+        {
+            title: 'Indar Unstable Meltdown',
+            zone: Zone.INDAR,
+            duration: shortAlert,
+            triggeringFaction: Faction.VANU_SOVEREIGNTY,
+            unstable: true,
+        },
+    ],
+    [
+        179,
+        {
+            title: 'Indar Unstable Meltdown',
+            zone: Zone.INDAR,
+            duration: shortAlert,
+            triggeringFaction: Faction.NEW_CONGLOMERATE,
+            unstable: true,
+        },
+    ],
+    [
+        193,
+        {
+            title: 'Indar Unstable Meltdown',
+            zone: Zone.INDAR,
+            duration: shortAlert,
+            triggeringFaction: Faction.TERRAN_REPUBLIC,
+            unstable: true,
+        },
+    ],
+    [
+        214,
+        {
+            title: 'Indar Conquest (high pop)',
+            zone: Zone.INDAR,
+            duration: longAlert,
+            triggeringFaction: Faction.NONE,
+            unstable: false,
+        },
+    ],
 
-    // Esamir
+
+    // =========== Esamir
     [
         150,
         {
@@ -136,8 +177,48 @@ MetagameDetailsInterface> = new Map<number, MetagameDetailsInterface>([
             unstable: false,
         },
     ],
+    [
+        186,
+        {
+            title: 'Esamir Unstable Meltdown',
+            zone: Zone.ESAMIR,
+            duration: shortAlert,
+            triggeringFaction: Faction.VANU_SOVEREIGNTY,
+            unstable: true,
+        },
+    ],
+    [
+        176,
+        {
+            title: 'Esamir Unstable Meltdown',
+            zone: Zone.ESAMIR,
+            duration: shortAlert,
+            triggeringFaction: Faction.NEW_CONGLOMERATE,
+            unstable: true,
+        },
+    ],
+    [
+        190,
+        {
+            title: 'Esamir Unstable Meltdown',
+            zone: Zone.ESAMIR,
+            duration: shortAlert,
+            triggeringFaction: Faction.TERRAN_REPUBLIC,
+            unstable: true,
+        },
+    ],
+    [
+        212,
+        {
+            title: 'Esamir Conquest (high pop)',
+            zone: Zone.ESAMIR,
+            duration: longAlert,
+            triggeringFaction: Faction.NONE,
+            unstable: false,
+        },
+    ],
 
-    // Hossin
+    // =========== Hossin
     [
         153,
         {
@@ -168,8 +249,48 @@ MetagameDetailsInterface> = new Map<number, MetagameDetailsInterface>([
             unstable: false,
         },
     ],
+    [
+        187,
+        {
+            title: 'Hossin Unstable Meltdown',
+            zone: Zone.HOSSIN,
+            duration: shortAlert,
+            triggeringFaction: Faction.VANU_SOVEREIGNTY,
+            unstable: true,
+        },
+    ],
+    [
+        177,
+        {
+            title: 'Hossin Unstable Meltdown',
+            zone: Zone.HOSSIN,
+            duration: shortAlert,
+            triggeringFaction: Faction.NEW_CONGLOMERATE,
+            unstable: true,
+        },
+    ],
+    [
+        191,
+        {
+            title: 'Hossin Unstable Meltdown',
+            zone: Zone.HOSSIN,
+            duration: shortAlert,
+            triggeringFaction: Faction.TERRAN_REPUBLIC,
+            unstable: true,
+        },
+    ],
+    [
+        213,
+        {
+            title: 'Hossin Conquest (high pop)',
+            zone: Zone.HOSSIN,
+            duration: longAlert,
+            triggeringFaction: Faction.NONE,
+            unstable: false,
+        },
+    ],
 
-    // Amerish
+    // =========== Amerish
     [
         156,
         {
@@ -200,26 +321,13 @@ MetagameDetailsInterface> = new Map<number, MetagameDetailsInterface>([
             unstable: false,
         },
     ],
-
-    // Unstable Meltdowns
-    // NC
     [
-        176,
+        188,
         {
-            title: 'Esamir Unstable Meltdown',
-            zone: Zone.ESAMIR,
+            title: 'Amerish Unstable Meltdown',
+            zone: Zone.AMERISH,
             duration: shortAlert,
-            triggeringFaction: Faction.NEW_CONGLOMERATE,
-            unstable: true,
-        },
-    ],
-    [
-        177,
-        {
-            title: 'Hossin Unstable Meltdown',
-            zone: Zone.HOSSIN,
-            duration: shortAlert,
-            triggeringFaction: Faction.NEW_CONGLOMERATE,
+            triggeringFaction: Faction.VANU_SOVEREIGNTY,
             unstable: true,
         },
     ],
@@ -234,80 +342,6 @@ MetagameDetailsInterface> = new Map<number, MetagameDetailsInterface>([
         },
     ],
     [
-        179,
-        {
-            title: 'Indar Unstable Meltdown',
-            zone: Zone.INDAR,
-            duration: shortAlert,
-            triggeringFaction: Faction.NEW_CONGLOMERATE,
-            unstable: true,
-        },
-    ],
-
-    // VS
-    [
-        186,
-        {
-            title: 'Esamir Unstable Meltdown',
-            zone: Zone.ESAMIR,
-            duration: shortAlert,
-            triggeringFaction: Faction.VANU_SOVEREIGNTY,
-            unstable: true,
-        },
-    ],
-    [
-        187,
-        {
-            title: 'Hossin Unstable Meltdown',
-            zone: Zone.HOSSIN,
-            duration: shortAlert,
-            triggeringFaction: Faction.VANU_SOVEREIGNTY,
-            unstable: true,
-        },
-    ],
-    [
-        188,
-        {
-            title: 'Amerish Unstable Meltdown',
-            zone: Zone.AMERISH,
-            duration: shortAlert,
-            triggeringFaction: Faction.VANU_SOVEREIGNTY,
-            unstable: true,
-        },
-    ],
-    [
-        189,
-        {
-            title: 'Indar Unstable Meltdown',
-            zone: Zone.INDAR,
-            duration: shortAlert,
-            triggeringFaction: Faction.VANU_SOVEREIGNTY,
-            unstable: true,
-        },
-    ],
-
-    // TR
-    [
-        190,
-        {
-            title: 'Esamir Unstable Meltdown',
-            zone: Zone.ESAMIR,
-            duration: shortAlert,
-            triggeringFaction: Faction.TERRAN_REPUBLIC,
-            unstable: true,
-        },
-    ],
-    [
-        191,
-        {
-            title: 'Hossin Unstable Meltdown',
-            zone: Zone.HOSSIN,
-            duration: shortAlert,
-            triggeringFaction: Faction.TERRAN_REPUBLIC,
-            unstable: true,
-        },
-    ],
-    [
         192,
         {
             title: 'Amerish Unstable Meltdown',
@@ -318,18 +352,6 @@ MetagameDetailsInterface> = new Map<number, MetagameDetailsInterface>([
         },
     ],
     [
-        193,
-        {
-            title: 'Indar Unstable Meltdown',
-            zone: Zone.INDAR,
-            duration: shortAlert,
-            triggeringFaction: Faction.TERRAN_REPUBLIC,
-            unstable: true,
-        },
-    ],
-
-    // High pop triggered alerts
-    [
         211,
         {
             title: 'Amerish Conquest (high pop)',
@@ -339,38 +361,18 @@ MetagameDetailsInterface> = new Map<number, MetagameDetailsInterface>([
             unstable: false,
         },
     ],
-    [
-        212,
-        {
-            title: 'Esamir Conquest (high pop)',
-            zone: Zone.ESAMIR,
-            duration: longAlert,
-            triggeringFaction: Faction.NONE,
-            unstable: false,
-        },
-    ],
-    [
-        213,
-        {
-            title: 'Hossin Conquest (high pop)',
-            zone: Zone.HOSSIN,
-            duration: longAlert,
-            triggeringFaction: Faction.NONE,
-            unstable: false,
-        },
-    ],
-    [
-        214,
-        {
-            title: 'Indar Conquest (high pop)',
-            zone: Zone.INDAR,
-            duration: longAlert,
-            triggeringFaction: Faction.NONE,
-            unstable: false,
-        },
-    ],
 
-    // Oshur
+    // =========== Oshur
+    [
+        224,
+        {
+            title: 'Oshur Enlightenment',
+            zone: Zone.OSHUR,
+            duration: longAlert,
+            triggeringFaction: Faction.VANU_SOVEREIGNTY,
+            unstable: false,
+        },
+    ],
     [
         222,
         {
@@ -392,16 +394,6 @@ MetagameDetailsInterface> = new Map<number, MetagameDetailsInterface>([
         },
     ],
     [
-        224,
-        {
-            title: 'Oshur Enlightenment',
-            zone: Zone.OSHUR,
-            duration: longAlert,
-            triggeringFaction: Faction.VANU_SOVEREIGNTY,
-            unstable: false,
-        },
-    ],
-    [
         226,
         {
             title: 'Oshur Conquest (high pop)',
@@ -411,7 +403,37 @@ MetagameDetailsInterface> = new Map<number, MetagameDetailsInterface>([
             unstable: false,
         },
     ],
-    // Outfit Wars
+    [
+        249,
+        {
+            title: 'Oshur Unstable Meltdown',
+            zone: Zone.OSHUR,
+            duration: shortAlert,
+            triggeringFaction: Faction.VANU_SOVEREIGNTY,
+            unstable: true,
+        },
+    ],
+    [
+        248,
+        {
+            title: 'Oshur Unstable Meltdown',
+            zone: Zone.OSHUR,
+            duration: shortAlert,
+            triggeringFaction: Faction.NEW_CONGLOMERATE,
+            unstable: true,
+        },
+    ],
+    [
+        250,
+        {
+            title: 'Oshur Unstable Meltdown',
+            zone: Zone.OSHUR,
+            duration: shortAlert,
+            triggeringFaction: Faction.TERRAN_REPUBLIC,
+            unstable: true,
+        },
+    ],
+    // =========== Outfit Wars (Nexus)
     [
         227,
         {
